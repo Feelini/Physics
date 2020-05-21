@@ -13,15 +13,6 @@
             android:orientation="vertical">
 
             <Button
-                android:id="@+id/noSection"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/button_side_20dp"
-                android:layout_marginTop="@dimen/button_top_10dp"
-                android:layout_marginEnd="@dimen/button_side_20dp"
-                android:text="@string/noSection" />
-
-            <Button
                 android:id="@+id/mechanics"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

@@ -15,8 +15,6 @@ import butterknife.Unbinder;
 
 public class LawsSectionActivity extends AppCompatActivity implements View.OnClickListener {
 
-    @BindView(R.id.noSection)
-    Button noSection;
     @BindView(R.id.mechanics)
     Button mechanics;
     @BindView(R.id.thermodynamics)
@@ -37,7 +35,6 @@ public class LawsSectionActivity extends AppCompatActivity implements View.OnCli
 
         unbinder = ButterKnife.bind(this);
 
-        noSection.setOnClickListener(this);
         mechanics.setOnClickListener(this);
         thermodynamics.setOnClickListener(this);
         electricity.setOnClickListener(this);
